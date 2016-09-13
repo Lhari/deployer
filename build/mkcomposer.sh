@@ -44,7 +44,7 @@ cat > composer.json <<- _EOF_
         "connect20/chapagain_googletagmanager": "0.1.0",
         "aoepeople/aoe_scheduler": "1.*",
         "$PROJECTNAME": "dev-$BRANCH",
-        "block": "dev-master",
+        "blocks": "dev-master",
         "php": ">=5.4",
         "johnpbloch/wordpress": "4.*",
         "wpackagist-plugin/adminimize": "*",
