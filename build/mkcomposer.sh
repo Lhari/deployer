@@ -26,6 +26,11 @@ cat > composer.json <<- _EOF_
                 "type": "vcs",
                 "url": "git@github.com:klean/$GITNAME.git"
         },
+        "block": {
+            "name": "blocks",
+            "type": "vcs",
+            "url": "git@github.com:klean/blocks.git"
+        },
         "wordpress": {
             "type": "composer",
             "url": "http://wpackagist.org"
