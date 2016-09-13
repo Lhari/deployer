@@ -44,7 +44,7 @@ cat > composer.json <<- _EOF_
         "fancyguy/wordpress-monolog": "dev-master"
     },
     "extra": {
-        "wordpress-install-dir": "wp",
+        "wordpress-install-dir": "public_html__new/wp/",
         "magento-deploystrategy": "copy",
         "magento-root-dir": "public_html__new",
         "auto-append-gitignore": true,
