@@ -44,7 +44,7 @@ cat > composer.json <<- _EOF_
         "fancyguy/wordpress-monolog": "dev-master",
         "wpackagist-plugin/adminimize": "*",
         "wpackagist-plugin/login-redirect-url": "*",
-        "wpackagist-plugin/simple-seo-pack": "*",
+        "wpackagist-plugin/simple-seo-pack": "*"
     },
     "extra": {
         "wordpress-install-dir": "public_html__new/wp/",
