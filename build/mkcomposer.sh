@@ -41,7 +41,7 @@ cat > composer.json <<- _EOF_
         "$PROJECTNAME": "dev-$BRANCH",
         "php": ">=5.4",
         "johnpbloch/wordpress": "4.*",
-        "fancyguy/wordpress-monolog": "dev-master",
+        "fancyguy/wordpress-monolog": "dev-master"
     },
     "extra": {
         "wordpress-install-dir": "wp",
