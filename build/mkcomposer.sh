@@ -47,7 +47,7 @@ cat > composer.json <<- _EOF_
         "blocks": "dev-master",
         "php": ">=5.4",
         "johnpbloch/wordpress": "4.*",
-        "wpackagist-plugin/adminimize": "*",
+        "wpackagist-plugin/user-role-editor": "*",
         "wpackagist-plugin/login-redirect-url": "*",
         "wpackagist-plugin/simple-seo-pack": "*",
         "wpackagist-plugin/akismet": "*"
