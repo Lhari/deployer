@@ -18,6 +18,17 @@ echo "Starting Timer for deploy"
 echo "------------------------------------"
 echo
 
+echo "Backing up Database"
+echo "------------------------------------"
+echo
+. mysql.sh
+
+END=$(date +%s)
+DIFF=$(( $END - $START ))
+echo "Cleaning took: $DIFF seconds"
+
+
+
 echo "Cleaning up the previous install folders"
 echo "------------------------------------"
 echo
