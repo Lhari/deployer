@@ -11,6 +11,9 @@
 # for more information.
 #----------------------------------------------------
 
+# (0) include stuff from vars file
+. vars/settings.sh
+
 # (1) set up all the mysqldump variables
 timestamp() {
     date +"%H:%M:%S.%d-%m-%y"
@@ -18,9 +21,9 @@ timestamp() {
 
 FILE=dump/$(timestamp).sql
 DBSERVER=localhost
-DATABASE={{db}}
-USER={{usr}}
-PASS={{PW}}
+DATABASE=db_name
+USER=db_user
+PASS=db_pass
 
 # (2) in case you run this more than once a day, remove the previous version of the file
 unalias rm     2> /dev/null
