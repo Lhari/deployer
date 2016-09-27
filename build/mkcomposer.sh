@@ -41,6 +41,7 @@ cat > composer.json <<- _EOF_
         "aydin-hassan/magento-core-composer-installer": "*",
         "firegento/magento": "1.9.2.*",
         "connect20/cadence_fbpixel": "*",
+        "connect20/aromicon_google_universal_analytics": "*",
         "connect20/chapagain_googletagmanager": "0.1.0",
         "aoepeople/aoe_scheduler": "1.*",
         "$PROJECTNAME": "dev-$BRANCH",
