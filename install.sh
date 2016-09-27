@@ -25,7 +25,7 @@ echo
 
 END=$(date +%s)
 DIFF=$(( $END - $START ))
-echo "Cleaning took: $DIFF seconds"
+echo "Backing up took: $DIFF seconds"
 
 
 
