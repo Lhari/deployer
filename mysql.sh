@@ -21,9 +21,9 @@ timestamp() {
 
 FILE=dump/$(timestamp).sql
 DBSERVER=localhost
-DATABASE=db_name
-USER=db_user
-PASS=db_pass
+DATABASE=$db_name
+USER=$db_user
+PASS=$db_pass
 
 # (2) in case you run this more than once a day, remove the previous version of the file
 unalias rm     2> /dev/null
@@ -42,5 +42,4 @@ mysqldump --opt --user=${USER} --password=${PASS} ${DATABASE} > ${FILE}
 gzip $FILE
 
 # (5) show the user the result
-echo '${FILE}.gz was created:'
 ls -l ${FILE}.gz
