@@ -15,6 +15,17 @@ read BNAME
 echo "Define the base template (for Magento)"
 read TNAME
 
+echo "Please enter the database name"
+read DNAME
+
+echo "Please enter the Database User"
+read DUSER
+
+echo "Please enter the Database password"
+read DPASS
+
+
+
 if [[ ! -d vars ]]; then
 	mkdir vars
 fi
@@ -24,4 +35,7 @@ BRANCH=$BNAME
 GITNAME=$GNAME
 PROJECTNAME=$PNAME
 TEMPLATENAME=$TNAME
+db_name=$DNAME
+db_user=$DUSER
+db_pass=$DPASS
 _EOF_
