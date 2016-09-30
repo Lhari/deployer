@@ -116,7 +116,7 @@ echo
 
 . maintenance/chmod.sh
 . maintenance/currentStores.sh
-
+. maintenance/mkmagerun.sh
 END=$(date +%s)
 DIFF=$(( $END - $START ))
 echo "Packages took: $DIFF seconds"
