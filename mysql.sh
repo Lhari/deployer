@@ -25,6 +25,10 @@ DATABASE=$db_name
 USER=$db_user
 PASS=$db_pass
 
+if [[ ! -d dump ]]; then
+	mkdir dump
+fi
+
 # (2) in case you run this more than once a day, remove the previous version of the file
 unalias rm     2> /dev/null
 rm ${FILE}     2> /dev/null
