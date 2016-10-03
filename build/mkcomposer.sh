@@ -86,3 +86,4 @@ cat << EOT >> composer.json
         "magento-force": true
     }
 }
+EOT
