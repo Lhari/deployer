@@ -36,4 +36,6 @@ do
 	fi
 done
 
+cp vendor/blocks/.htaccess public_html__new/blocks/
+
 . vars/overwrites.sh
