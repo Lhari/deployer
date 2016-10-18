@@ -52,6 +52,7 @@ cat << EOT >> composer.json
         "firegento/magento": "1.9.*",
         "$PROJECTNAME": "dev-$BRANCH",
         "connect20/chapagain_googletagmanager": "0.1.0",
+        "connect20/yireo_checkouttester": "*",
 EOT
 
 . vars/serverExtensions.sh
