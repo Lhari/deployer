@@ -49,7 +49,7 @@ cat << EOT >> composer.json
     "require": {
         "magento-hackathon/magento-composer-installer": "*",
         "aydin-hassan/magento-core-composer-installer": "*",
-        "firegento/magento": "1.9.*",
+        "firegento/magento": "1.9.2.2",
         "$PROJECTNAME": "dev-$BRANCH",
         "connect20/chapagain_googletagmanager": "0.1.0",
         "connect20/yireo_checkouttester": "*",
