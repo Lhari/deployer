@@ -17,7 +17,7 @@ vendor=(
 	"$vendorPath/Assets/media/*"
 	"$vendorPath/Extensions/*"
 	"$vendorPath/Public/*"
-	"vendor/blocks/*"
+	"vendor/blocks/"
 )
 
 for element in ${vendor[@]}
@@ -30,7 +30,7 @@ do
 	elif [[ $element == *'media'* ]]; then
 		cp -a $element 'public_html__new/'$mediatar
 	elif [[ $element == *'blocks'* ]]; then
-		cp -a $element 'public_html__new/blocks/'
+		cp -a $element 'public_html__new/'
 	else
 		cp -a $element 'public_html__new/'
 	fi
