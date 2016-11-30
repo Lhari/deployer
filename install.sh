@@ -116,6 +116,7 @@ echo
 
 . maintenance/chmod.sh
 . maintenance/currentStores.sh
+. maintenance/sitemap.sh
 
 END=$(date +%s)
 DIFF=$(( $END - $START ))
