@@ -64,7 +64,6 @@ cat << EOT >> composer.json
         "wpackagist-plugin/user-role-editor": "*",
         "wpackagist-plugin/login-redirect-url": "*",
         "wpackagist-plugin/simple-seo-pack": "*",
-        "wpackagist-plugin/akismet": "*",
 EOT
 fi
 
