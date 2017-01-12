@@ -41,7 +41,7 @@ echo "Cleaning took: $DIFF seconds"
 echo "Downloading Magento and other modules through composer"
 echo "------------------------------------"
 echo
-mkdir public_html__new
+
 . build/mkcomposer.sh
 php composer.phar install
 rm composer.json
