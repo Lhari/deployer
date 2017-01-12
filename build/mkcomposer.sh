@@ -47,8 +47,8 @@ cat << EOT >> composer.json
         }
     },
     "require": {
-        "magento-hackathon/magento-composer-installer": "1.0",
-        "aydin-hassan/magento-core-composer-installer": "2.1.3",
+        "magento-hackathon/magento-composer-installer": "2.1.3",
+        "aydin-hassan/magento-core-composer-installer": "1.0",
         "firegento/magento": "1.9.3.0",
         "$PROJECTNAME": "dev-$BRANCH",
         "connect20/chapagain_googletagmanager": "0.1.0",
